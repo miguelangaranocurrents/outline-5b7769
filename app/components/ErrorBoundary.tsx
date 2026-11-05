@@ -43,7 +43,7 @@ class ErrorBoundaryClass extends React.Component<Props> {
   error: Error | null | undefined = undefined;
 
   @observable
-  showDetails = true; // TEMP DIAGNOSTIC: revert after reading the stack in CI
+  showDetails = false;
 
   @observable
   isRepeatedError = false;
